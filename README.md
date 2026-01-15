@@ -17,7 +17,12 @@
 
 **Результат работы XTTS по сценарию от LLM**
 
-🎧 **[Открыть в веб-плеере](https://gigachut.github.io/podcast_system/)** | 📥 **[Скачать MP3](#)**
+[![Play](https://img.shields.io/badge/▶%20Play-blue?style=for-the-badge)](https://github.com/GIGAchut/podcast_system/raw/main/episodes/Chamelion.wav)
+
+или откройте файл напрямую:
+```
+episodes/Chamelion.wav
+```
 
 ---
 
