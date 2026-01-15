@@ -13,23 +13,11 @@
 
 Ниже представлены аудиофайлы, созданные с помощью **XTTS** (текст-в-речь) по сценариям, написанным **LLM** (языковой моделью):
 
-#### Episode 1
-<audio controls>
-  <source src="episodes/episode_01.mp3" type="audio/mpeg">
-  Ваш браузер не поддерживает тег audio.
-</audio>
-
-#### Episode 2
-<audio controls>
-  <source src="episodes/episode_02.mp3" type="audio/mpeg">
-  Ваш браузер не поддерживает тег audio.
-</audio>
-
 #### Chameleon - Результат XTTS
 
 **Результат работы XTTS по сценарию от LLM**
 
-[🎧 Открыть плеер и прослушать](https://gigachut.github.io/podcast_system/)
+[🔊 Скачать Chamelion.wav](https://github.com/GIGAchut/podcast_system/raw/main/episodes/Chamelion.wav)
 
 ## 🚀 Технологический стек
 
