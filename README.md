@@ -17,10 +17,7 @@
 
 **Результат работы XTTS по сценарию от LLM**
 
-<audio controls style="width: 100%; max-width: 500px;">
-  <source src="https://github.com/GIGAchut/podcast_system/raw/main/episodes/Chamelion.wav" type="audio/wav">
-  Ваш браузер не поддерживает воспроизведение аудио.
-</audio>
+🎧 **[Открыть в веб-плеере](https://gigachut.github.io/podcast_system/)** | 📥 **[Скачать MP3](#)**
 
 ---
 
