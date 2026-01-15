@@ -17,7 +17,10 @@
 
 **Результат работы XTTS по сценарию от LLM**
 
-[🔊 Скачать Chamelion.wav](https://github.com/GIGAchut/podcast_system/raw/main/episodes/Chamelion.wav)
+<audio controls style="width: 100%; max-width: 500px;">
+  <source src="https://github.com/GIGAchut/podcast_system/raw/main/episodes/Chamelion.wav" type="audio/wav">
+  Ваш браузер не поддерживает воспроизведение аудио.
+</audio>
 
 ---
 
