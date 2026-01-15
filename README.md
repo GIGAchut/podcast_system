@@ -29,7 +29,7 @@
 
 **Результат работы XTTS по сценарию от LLM**
 
-[🔊 Прослушать Chamelion.wav](https://github.com/GIGAchut/podcast_system/raw/main/episodes/Chamelion.wav)
+[🎧 Открыть плеер и прослушать](https://gigachut.github.io/podcast_system/)
 
 ## 🚀 Технологический стек
 

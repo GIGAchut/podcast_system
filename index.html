@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast System - Audio Player</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .audio-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .audio-title {
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .audio-description {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        
+        audio {
+            width: 100%;
+            outline: none;
+        }
+        
+        audio::-webkit-media-controls-panel {
+            background-color: #667eea;
+        }
+        
+        .tech-stack {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0f4ff;
+            border-radius: 12px;
+            border-left: 4px solid #764ba2;
+        }
+        
+        .tech-stack h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .tech-stack ul {
+            list-style: none;
+            font-size: 13px;
+            color: #555;
+        }
+        
+        .tech-stack li {
+            margin-bottom: 5px;
+            padding-left: 15px;
+            position: relative;
+        }
+        
+        .tech-stack li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎙️ Podcast System</h1>
+        <p class="subtitle">Аудио примеры, созданные XTTS по сценариям LLM</p>
+        
+        <div class="audio-item">
+            <div class="audio-title">🎧 Chameleon</div>
+            <div class="audio-description">
+                Результат работы <strong>XTTS</strong> (текст-в-речь) по сценарию, написанному <strong>LLM</strong> (языковой моделью)
+            </div>
+            <audio controls>
+                <source src="episodes/Chamelion.wav" type="audio/wav">
+                Ваш браузер не поддерживает воспроизведение аудио.
+            </audio>
+        </div>
+        
+        <div class="tech-stack">
+            <h3>⚙️ Технологический стек</h3>
+            <ul>
+                <li><strong>XTTS</strong> - Advanced text-to-speech синтез речи</li>
+                <li><strong>LLM</strong> - Генерация сценариев и контента</li>
+                <li><strong>Python</strong> - Основной язык для обработки</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
