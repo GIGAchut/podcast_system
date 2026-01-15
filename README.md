@@ -26,10 +26,10 @@
 </audio>
 
 #### Chameleon - Результат XTTS
-<audio controls>
-  <source src="episodes/Chamelion.wav" type="audio/wav">
-  Ваш браузер не поддерживает тег audio.
-</audio>
+
+**Результат работы XTTS по сценарию от LLM**
+
+[🔊 Прослушать Chamelion.wav](https://github.com/GIGAchut/podcast_system/raw/main/episodes/Chamelion.wav)
 
 ## 🚀 Технологический стек
 
